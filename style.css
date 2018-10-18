@@ -1,0 +1,43 @@
+h1 {
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+label {
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+@keyframes backgroundColorAnimation {
+    0%   {background-color: #D98880;}
+    25%  {background-color: #BB8FCE;}
+    50%  {background-color: #85C1E9;}
+    75% {background-color: #7DCEA0;}
+    100% {background-color: #F0B27A;}
+}
+
+body {
+  transition: background-color 1s ease;
+  animation-name: backgroundColorAnimation;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+form {
+  text-align: center;
+}
+
+textarea {
+  font-size: 25px;
+  color: white;
+  outline: none;
+  background: transparent;
+  border-color: white;
+  border-width: thick;
+  border-radius: 15px;
+}
+
+#header {
+  text-align: center;
+}
