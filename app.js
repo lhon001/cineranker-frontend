@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-  const baseURL = ''
+  const baseURL = '' 
 
   let userInput = document.getElementById('textArea');
   let movieForm = document.getElementById('movieForm');

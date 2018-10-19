@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <link rel='stylesheet' href='style.css'>
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Pacifico" rel="stylesheet">
     <title>CineRanker</title>
   </head>
   <body>
     <h1 id='header'>CineRanker</h1>
     <div id="mainDiv">
       <form id="movieForm">
-        <label>Enter Movie Titles</label>
+        <!-- <label>Enter Movie Titles</label>
+        <br> -->
+        <textarea rows="4" cols="50" type='text' id='textArea' name="movieTextInput" value='' placeholder="Enter movie titles separated by commas..."></textarea>
         <br>
-        <textarea rows="4" cols="50" type='text' id='textArea' name="movieTextInput" value=''></textarea>
-        <br>
-        <input type='submit' value='Rank Movies'/>
+        <button type='submit' value='Rank Movies'>Rank Movies</button>
       </form>
     </div>
 
